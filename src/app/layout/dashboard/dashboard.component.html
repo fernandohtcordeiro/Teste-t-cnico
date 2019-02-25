@@ -1,0 +1,237 @@
+
+
+<div [@routerTransition]>
+    <h2 class="text-muted"> <small></small></h2>
+   
+   
+    <div class="row">
+        <div class="col-md-12">
+            
+             <div class="col-sm-8">
+                        <nav>
+                          <a href="#/dashboard')">Página Inicial</a> > Painel de Gestão
+                        </nav>
+                        <br>
+                                <h4 class="page-header"><img src="assets/images/icons.png" alt="icons globo" height="42" width="42"  margin="5">Painel de gestão</h4>
+                    </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+       <div class="col-6 col-md-8">
+            
+                    <div class="main">
+                        <h4>Atalhos</h4>
+                        <hr>
+                        <p>Operacional</p>
+                      
+                                    <div class="row">
+                                      <div class="col-6 col-md-4">
+                                             <button type="button" class="btn btn-outline-primary espaco"disabled>Envio</button>
+                                            <button type="button" class="btn btn-outline-primary espaco"disabled>Envio de Duplicadas</button>
+                                              <button type="button" class="btn btn-outline-primary espaco"disabled>Nova Operação</button>
+
+                                      </div>
+                                      <div class="col-6 col-md-4">
+                                            <button type="button" class="btn btn-outline-primary espaco3"disabled>Assinatura</button>
+                                            <button type="button" class="btn btn-outline-primary espaco3"disabled>Assinatura Digital</button>
+
+
+                                      </div>
+                                      <div class="col-6 col-md-4">
+                                             <button type="button" class="btn btn-outline-primary espaco4"disabled>Carteira</button>
+                                             <button type="button" class="btn btn-outline-primary espaco4">Instruções</button>
+                                      </div>
+                                    </div>
+                                </div>
+        </div>
+        
+        
+        <div class="col-6 col-md-4">
+            
+                        <div class="col-sm-4">
+                           <tr>
+                                <th>Produtos</th>
+                                <td>
+                                    <div class="dropdown">
+
+                                        <a class="btn btn-outline-primary espaco5" href="#/')">Todos</a>
+                                        </div>
+                                    </td>
+                              </tr>
+                        </div>
+            <tr>
+                                <th> Alertas </th>
+                                <td>Ultimo 5 dias</td>
+                              </tr>
+                              <tr>
+                                <th>23 notas canceladas</th>
+                                <td>
+                                    
+                                       
+                              
+
+
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <th>13 notas canceladas</th>
+                                <td>
+                                    <div class="dropdown">
+
+                                        <a class="btn btn-outline-primary espaco2" href="#/table')">Ações</a>
+                                        </div>
+                                    </td>
+                              </tr>
+                              <tr>
+                                <th>7 assinaturas digital</th>
+                                <td>
+                                    <div class="dropdown">
+                                           <a class="btn btn-outline-primary espaco2" href="#/table')">Ações</a>
+                                          
+                                        </div>
+                                    </td>
+                              </tr>
+        </div>
+    </div>
+    <hr />
+   
+    <hr />
+    
+</div>
+
+                   <style>
+                                * {
+                                  box-sizing: border-box;
+                                }
+                                .espaco{
+                                    margin-top: 25px;
+                                    width: 190px;
+                                 margin-left: 5px;
+                                  
+                                }
+                                .espaco3{
+                                    
+                                    margin-top: 25px;
+                                    width: 190px;
+                                }
+                                 .espaco4{
+                                    
+                                    margin-top: 25px;
+                                    width: 190px;
+                                }
+                                .menu a {
+                                  background-color:#073f6f;
+                                  padding:8px;
+                                  margin-top:7px;
+                                  display:block;
+                                  width:100%;
+                                  color:black;
+                                }
+                                .espaco2{
+                                    margin-top: 28px;
+                                    margin-left: 28px;
+                                }
+                                .espaco5{
+                                    margin-top: 28px;
+                                    margin-left: 98px;
+                                }
+                                .main {
+                                  float:left;
+                                  width:650px;
+                                 margin-left: 2px;
+                                  background-color:#fff;;
+                                  height: 400px;
+                                 
+                                }
+                                .right {
+                                  background-color: #fff;
+                                  float:left;
+                                  width:40%;
+                                  padding:15px;
+                                  height: 400px;
+                                  text-align:center;
+                                }
+                               
+                                  table, th, td {
+                                    border-bottom: 1px solid #fff;
+                                    border-collapse: collapse;
+                                }
+                                th, td {
+                                    padding: 5px;
+                                    text-align: left;
+                                    margin-top: 5px;    
+                                }
+                                
+
+                                .dropbtn {
+                                        background-color: #073f6f;
+                                        color: white;
+                                        padding:5px 40px;
+                                        margin: 0 5px;
+                                        font-size: 16px;
+                                        border: none;
+                                        cursor: pointer;
+                                    }
+
+                                    .dropbtn:hover, .dropbtn:focus {
+                                        background-color: #2980B9;
+                                    }
+
+                                    .dropdown {
+                                        position: relative;
+                                        display: inline-block;
+                                    }
+
+                                    .dropdown-content {
+                                        display: none;
+                                        position: absolute;
+                                        background-color: #f1f1f1;
+                                        min-width: 160px;
+                                        overflow: auto;
+                                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                        z-index: 1;
+                                    }
+
+                                    .dropdown-content a {
+                                        color: black;
+                                        padding: 12px 16px;
+                                        text-decoration: none;
+                                        display: block;
+                                    }
+
+                                    .dropdown a:hover {background-color: #ddd;}
+
+                                    .show {display: block;}
+
+                                    .button {
+                                            background-color:#073f6f;
+                                            border: none;
+                                            color: white;
+                                            padding: 5px 40px;
+                                            text-align: center;
+                                            text-decoration: none;
+                                            display: inline-block;
+                                            font-size: 15px;
+                                            margin: 1px 1px;
+                                            cursor: pointer;
+                                            
+                                           
+
+                                            }
+                                             .button ,p {
+                                            color: ;
+                                                                                      
+                                            }
+                                       
+                                                  
+                                                    
+
+                                @media only screen and (max-width:620px) {
+                                  /* For mobile phones: */
+                                  .menu, .main, .right {
+                                    width:100%;
+                                  }
+                                }
+                            </style>
